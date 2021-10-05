@@ -1,28 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
 @import "reset.css";
-@import "statusbar.css";
+@import "variables.css";
+
+@import "components/statusbar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+@import "screens/cocoa1.css";
+@import "screens/cocoa2.css";
 
 body {
-  background-color: rgb(233, 250, 241);
+  background-color: var(--color);
   font-family: "Open Sans", sans-serif;
-}
-
-.welcome-header {
-  margin-top: 90px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 30px;
-  font-size: 25px;
-  font: bold;
-}
-
-.welcome-header__text {
-  width: 70%;
-  margin-bottom: 90px;
-  opacity: 0.7;
+  height: 1000vh;
+  color: var(--black);
 }
