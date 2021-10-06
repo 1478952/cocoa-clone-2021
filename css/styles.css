@@ -6,11 +6,15 @@
 @import "components/statusbar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/bedge.css";
 
-@import "screens/cocoa1.css";
-@import "screens/cocoa2.css";
+@import "screens/index.css";
+@import "screens/friends.css";
+@import "screens/find.css";
 
 body {
+  padding-top: 20px;
   background-color: var(--color);
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
