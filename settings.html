@@ -23,36 +23,41 @@
       </div>
     </div>
 
-    <header class="screen__title">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icon">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+    <header class="setting-screen__title">
+      <div class="setting-screen__header">
+        <a href="javascript:history.back();"
+          ><i class="fas fa-chevron-left"></i
+        ></a>
+      </div>
+
+      <div class="setting-screen__header">
+        <h1 class="screen-header__title">Settings</h1>
+      </div>
+
+      <div class="setting-screen__header">
+        <i class="fas fa-search"></i>
       </div>
     </header>
 
     <div class="friends__screen">
-      <div class="friends-screen__channel">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img src="photo/channel.png" class="user-component__avatar" />
-            <div class="user-component__text">
-              <a href="chatting.html">
-                <h4 class="user-component__title">CoCoaTalk</h4>
-                <h6 class="user-component__subtitle">
-                  Please check my Cocoa Account info
-                </h6></a
-              >
-            </div>
+      <div class="setting-screen">
+        <div class="setting-title">
+          <div class="setting-text">
+            <i class="fas fa-bullhorn"></i><span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span>22:00</span
-            ><span class="user-component__column-notification">1</span>
+          <div class="setting-subtitle"></div>
+        </div>
+        <div class="setting-title">
+          <div class="setting-text">
+            <i class="fas fa-flask"></i><span>Cocoa Lab</span>
           </div>
+          <div class="setting-subtitle"></div>
+        </div>
+        <div class="setting-title">
+          <div class="setting-text">
+            <i class="fas fa-info-circle"></i><span>Version</span>
+          </div>
+          <div class="setting-subtitle"><span>Latest Version</span></div>
         </div>
       </div>
     </div>
@@ -61,13 +66,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
+            ><i class="fas fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html"
             ><span class="nav__notification">1</span
-            ><i class="fas fa-comment fa-2x"></i
+            ><i class="far fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
