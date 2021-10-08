@@ -57,3 +57,27 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+@keyframes splash {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash {
+  background-color: #a7fccf;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: splash 0.2s ease-in-out forwards;
+  animation-delay: 2s;
+}

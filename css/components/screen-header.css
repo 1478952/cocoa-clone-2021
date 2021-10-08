@@ -17,3 +17,17 @@
 .screen-header__icon {
   position: relative;
 }
+
+@keyframes fa-cog {
+  from {
+    transform: rotateZ(360deg);
+  }
+
+  to {
+    transform: rotateZ(0px);
+  }
+}
+
+.fa-cog:hover {
+  animation: fa-cog 3s linear infinite;
+}

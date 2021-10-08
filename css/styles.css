@@ -9,6 +9,7 @@
 @import "components/user-component.css";
 @import "components/bedge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 @import "screens/index.css";
 @import "screens/friends.css";
@@ -16,7 +17,6 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chatting.css";
-
 body {
   padding-top: 20px;
   background-color: var(--color);
